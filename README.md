@@ -1,4 +1,3 @@
-# 自动控制原理
 # 目录
 
 ## 第一章 绪论
@@ -30,10 +29,11 @@
 时域数学模型一般用微分方程来描述
 
 微分方程的动态样式：
-$$
-a_0\frac{d^n}{dt^n}c\left( t \right) +a_1\frac{d^{n-1}}{dt^{n-1}}c\left( t \right) +a_2\frac{d^{n-2}}{dt^{n-2}}c\left( t \right) +...+a_{n-1}\frac{d}{dt}c\left( t \right) +a_nc\left( t \right) =
-b_0\frac{d^m}{dt^m}r\left( t \right) +a_1\frac{d^{m-1}}{dt^{m-1}}r\left( t \right) +a_2\frac{d^{m-2}}{dt^{m-2}}r\left( t \right) +...+a_{m-1}\frac{d}{dt}r\left( t \right) +a_mr\left( t \right)
-$$
+
+![image-20220429220201730](https://picgo-use-images.oss-cn-shanghai.aliyuncs.com/images/image-20220429220201730.png)
+
+![image-20220429220234142](https://picgo-use-images.oss-cn-shanghai.aliyuncs.com/images/image-20220429220234142.png)
+
 我们就是要在不同的环境中使用不同的数学模型
 
 #### ==重点：关于线性常微分方程的求解==
@@ -47,9 +47,9 @@ $$
 **step two：**
 
 由代数方程求出输出量的拉式变换表达式；
-$$
-C\left( s \right) =\frac{N\left( s \right)}{D\left( s \right)}
-$$
+
+![image-20220429220350988](https://picgo-use-images.oss-cn-shanghai.aliyuncs.com/images/image-20220429220350988.png)
+
 **step three:**
 
 通过反拉氏变换得到输出量的表达式；
@@ -264,4 +264,3 @@ $$
 <img src="https://picgo-use-images.oss-cn-shanghai.aliyuncs.com/images/image-20220429202645836.png" alt="image-20220429202645836" style="zoom:67%;" />
 
 ![image-20220429203222566](https://picgo-use-images.oss-cn-shanghai.aliyuncs.com/images/image-20220429203222566.png)
-
