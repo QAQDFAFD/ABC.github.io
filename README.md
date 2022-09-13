@@ -44,6 +44,8 @@
 
 考虑初始条件，对微分方程的每一项分别进行拉氏变换，将微分方程转化成变量s的代数方程；
 
+![](https://picgo-use-images.oss-cn-shanghai.aliyuncs.com/images/20220913100320.png)
+
 **step two：**
 
 由代数方程求出输出量的拉式变换表达式；
